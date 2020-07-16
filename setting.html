@@ -6,6 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
+    <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -17,7 +18,7 @@ and open the template in the editor.
                 <link rel="stylesheet"  href="stylesheet.css">
     </head>
     <body>
- <nav class="navbar navbar-inverse navbar-fixed-top">
+          <nav class="navbar navbar-inverse navbar-fixed-top">
                <div class="container">
                    <div class="navbar-header">
                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
@@ -29,45 +30,35 @@ and open the template in the editor.
                    </div>
                    <div class="collapse navbar-collapse" id="mynavbar">
                    <ul class="nav navbar-nav navbar-right ">
-                       
-                     <li><a href="login.html"><span class="glyphicon glyphicon-log-in">Login</span></a></li>
-                          <li><a href="signup.html"><span class="glyphicon glyphicon-user">Signup</span></a></li>
+                               <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart">Cart</span></a></li>
+                     <li><a href="setting.html"><span class="glyphicon glyphicon-user">Setting</span></a></li>
+                          <li><a href="logout.html"><span class="glyphicon glyphicon-log-out">Logout</span></a></li>
                        </ul>
                   </div>
                </div>
-              
-               
-           </nav>
-           <div>
-       </div>
-        <br><br>
-        <div class="container login">
+                       </nav>
+                     <br><br>
+ <div class="container login">
             <div class="col-sm-4">
-                <h1>SIGN UP</h1>
+                <h3>Change Password</h3>
                 <form>
                     <div class="form-group">
-                        <input class="form-control" type="text" name="name"  placeholder="Name">
-                        </div>
-                   <div class="form-group">
-                        <input class="form-control" type="email" name="email" placeholder="E-mail">
-                        </div>
+
                                         <div class="form-group">
-                        <input class="form-control" type="password" name="password" placeholder="password">
+                        <input class="form-control" type="password" name="password" placeholder="Old password">
                         </div>
-                         <div class="form-group">
-                        <input class="form-control" type="text" name="contact" placeholder="Contact">
+                                                                <div class="form-group">
+                        <input class="form-control" type="password" name="password" placeholder="New password">
                         </div>
-                                        <div class="form-group">
-                        <input class="form-control" type="text" name="city" placeholder="City">
+                                                                <div class="form-group">
+                        <input class="form-control" type="password" name="password" placeholder="Re-type password">
                         </div>
-                                        <div class="form-group">
-                        <input class="form-control" type="text" name="address" placeholder="Address">
-                        </div>
-                    <input type="submit" value="submit" class="btn btn-primary">
+                       </div> 
+                    <input type="submit" value="change" class="btn btn-primary">
                 </form>
                 </div>
             </div>
-        <br><br><br>         
+             <br><br><br>                <br><br><br>             <br><br>      
          <footer>
             <center>
             <div class="container">
@@ -77,5 +68,4 @@ Reserved | Contact Us: +91 90000 00000</p>
                 </center>
         </footer>
     </body>
-    
 </html>

@@ -27,16 +27,14 @@ footer{
  bottom: 0;
  width: 100%;
 }
-
-.login{
-    margin:20px;
-    margin-right: 0px;
-    margin-top:60px;
-      margin-left: 400px;    
-    margin-bottom: 150px;
-    width:800px;
-    padding:0px;
+.success-page{
+    margin:30px;
 }
+.login{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 .navbar{
     position:relative;
 }
