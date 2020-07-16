@@ -1,0 +1,49 @@
+.banner-image{
+     padding-top: 75px;
+ padding-bottom: 50px;
+ text-align: center;
+ color: #f8f8f8;
+ height:800px;
+ margin:0px;
+background: url(IMG/intro-bg_1.jpg) no-repeat center center;
+background-size: cover;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.banner-content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 13%;
+    margin-bottom: 12%;
+    background-color: rgba(0,0,0,.7);
+    max-width: 660px;
+}
+footer{
+  padding: 10px 0;
+ background-color: #101010;
+ color:#9d9d9d;
+ bottom: 0;
+ width: 100%;
+}
+
+.login{
+    margin:20px;
+    margin-right: 0px;
+    margin-top:60px;
+      margin-left: 400px;    
+    margin-bottom: 150px;
+    width:800px;
+    padding:0px;
+}
+.navbar{
+    position:relative;
+}
+.products{
+    margin:20px;
+}
+.tablestyle{
+    margin-top: 50px;
+    margin-bottom: 330px;
+}
